@@ -1,0 +1,201 @@
+/*  Page Styles reset  */
+
+/*
+	html5doctor.com Reset Stylesheet
+	v1.6.1
+	Last Updated: 2010-09-17
+	Author: Richard Clark - http://richclarkdesign.com 
+	Twitter: @rich_clark
+*/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,hr,menu,nav,section{display:block}a,hr{padding:0}abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}ins,mark{background-color:#ff9;color:#000}body{line-height:1}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;font-size:100%;vertical-align:baseline;background:0 0}ins{text-decoration:none}mark{font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}input,select{vertical-align:middle}
+
+/* 	Page Styles reset */
+
+
+
+
+/* StyleGuide Page Styles */
+
+	html{
+		background-color:#fafafa;
+		font-family: "sans-serif", "verdana";
+	}
+
+	body{
+		width: 1200px;
+		margin: 50px auto;
+		padding: 30px;
+		background-color:#fff;
+		box-sizing:border-box;
+		display: flex;
+		justify-content:space-between;
+		flex-direction:row;
+	}
+
+	/* Navigation section */
+	#styleguide-navigation{
+		width:300px;
+		display:block;
+	}
+
+	#styleguide-navigation h2 {
+		margin:50px 0 30px 0;
+		display:block;
+	}
+
+	#styleguide-navigation ul.navigation-component {
+		overflow-y:auto;
+		height:100%;
+	}
+
+	#styleguide-navigation ul.navigation-component li a{
+		font-size:14px;
+		text-decoration:none;
+		padding:5px 5px 2px 0px;
+		margin-bottom:3px;
+		display:inline-block;
+		border-bottom:1px solid transparent;
+	}
+
+	#styleguide-navigation ul.navigation-component li a:hover{
+		border-bottom:1px solid;
+	}
+
+	#styleguide-navigation ul.navigation-component li a.active-nav{
+		border-bottom:1px solid orange;
+	}
+
+	.page-content-section, .page-wrapper{
+		width:900px;
+	}
+
+	xmp{
+	    margin-left: -150px;
+	}
+
+	/* -- Header Title styles -- */
+	.header-title {
+		margin-bottom:10px;
+		padding-bottom:10px;
+		letter-spacing:2px;
+	}
+
+	.header-title .sub-title {
+		font-size: 12px;
+		display:block;
+	}
+
+	.header-title .main-title{
+		display:inline-block;
+		font-size: 22px;
+		font-weight:lighter;
+		padding:10px 0;
+		border-bottom: 3px solid orange;
+	}
+	.header-title .main-title strong {
+		font-weight: 800;
+	}
+
+
+	/* -- Body section styles -- */
+	section.page-wrapper {
+		margin-top:30px;
+		display:flex;
+		flex-direction:column;
+	}
+
+	section.component-section {
+		margin-bottom:30px;
+		display:flex;
+		flex-direction:row;
+		justify-content:space-between;
+	}
+
+	div.section-left-pane, div.section-right-pane{
+		width:50%;
+		box-sizing:border-box;
+		padding:5px;
+	}		
+
+	.group-content{
+		font-weight:100;
+		line-height:22px;
+		padding-bottom:20px;	
+	}
+  
+	.code-snippet-component {
+		width: 100%;
+		max-height:400px;
+		color:#fff;
+		border:10px solid #505050;
+		background-color: #5a5a5a;
+		box-sizing:border-box;
+		position: relative;
+	}
+
+	.copyToClipBoardWrapper button.copyToClipBoard{
+		position: absolute;
+		left:0;
+		top:0;
+		display: block;
+		opacity: 1;
+		width: 100px;
+		height: 40px;
+		background-color: #fefefe;
+		border:0;
+		border-radius:0 0 5px 0;
+	}
+
+	.code-snippet-component-container{
+		width: 100%;
+		max-height:380px;
+		overflow: scroll;
+	}
+
+	button.copyToClipBoard:active{
+		background-color: #dedede;
+	}
+  
+	.interactive-view-wrapper {
+    min-width: 520px;
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-left: 20px;
+    }
+
+	.sg-form-subtitle {
+    font-size: 16px;
+    display: inline-block;
+    }
+
+	.sg-demo-wrapper{
+	    min-height: 258px;
+    	background-color: #fff;
+    	min-width: 365px;
+    	margin:20px auto;
+    }
+
+   .section-list-pane{
+	   	width:100%;
+		box-sizing:border-box;
+		padding:5px;
+   }
+
+	.interactive-list-wrapper {
+		background-color: #eaeaea;
+		padding: 20px;
+		width: 839px;
+		margin-left: 20px;
+		}
+
+
+	.sg-list-wrapper{
+			background-color: #fff;
+			width: 800px;
+			margin:20px auto;
+		}
+
+		.sg-tabs-container-search {
+    padding: 10px;
+}

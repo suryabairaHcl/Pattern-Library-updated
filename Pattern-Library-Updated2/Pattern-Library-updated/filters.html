@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Style Guide</title>
+    <link rel="stylesheet" type="text/css" href="./css/mainStyles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styleGuide-lib.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/icons.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/reset.css">  CSS reset  -->
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+                <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+            <link rel="stylesheet" href="/resources/demos/style.css">
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js/helperScript.js"></script>
+
+     <!-- <script>
+        $( function() {
+              
+        } );
+    </script> -->
+
+</head>
+
+<body>
+    <nav id="styleguide-navigation">
+    	<h2>Documentation</h2>
+        <ul class="navigation-component">
+            <li><a href="./forms.html" >Form Controls</a></li>
+            <li><a href="./buttons.html">Buttons</a></li>
+            <li><a href="./tabs.html" >Card Navigation</a></li>
+            <li><a href="./selection.html">Selection Controls</a></li>
+            <li><a href="./cards.html" >Task Navigation</a></li>
+            <li><a href="./datalist.html">Data List</a></li>
+            <li><a href="./search.html">Search</a></li>
+            <li><a href="./search-2.html">Search Results</a></li>
+            <li><a href="./search-3.html">Search Continued</a></li>
+            <li><a href="./search-4.html" >Search Continued Part 1</a></li>
+            <li><a href="./message-2.html" >Multi Select Dropdown</a></li>
+            <li><a href="./search-6.html" >Search Continued Part 3</a></li>
+            <li><a href="./search-7.html" >Search Continued Part 4</a></li>
+            <li><a href="./filters.html" class='active-nav'>filters</a></li>
+            <li><a href="./vertical-nav.html">Vertical Navigation</a></li>
+            <li><a href="./message1.html"  >Building Blocks</a></li>
+            <li><a href="./message-2.html" >Multi Select Dropdown</a></li>
+            <li><a href="./message-3.html" >Building Blocks Part 2</a></li>
+            <li><a href="./message-4.html" >Building Blocks Part 3</a></li>
+            <li><a href="./pagination-1.html" >Pagination</a></li>
+            <li><a href="./page-break.html" >Pagination</a></li>
+            <li><a href="./list-items.html" >List Item</a></li>
+        </ul>
+    </nav>
+
+    <section id="page-content-section">
+
+        <header>
+            <!-- Header or banner section for the page -->
+            <div class="header-title">
+                <span class="sub-title">COMPONENT</span>
+                <span class="main-title">
+					<strong>Filters</strong> 
+				</span>
+                <span class="decor-line"></span>
+            </div>
+        </header>
+
+        <section class="page-wrapper">
+            <!-- Page content section -->
+            <section class="component-section">
+                <!-- Each sub-section of the page with right and left panes -->
+
+                <div class="section-left-pane">
+                    <!-- Left pane with text and code snippet -->
+                    <p class="group-content">Forms are made up of several different components. The order in which therse elements are arranged is flexible, but should always follow the style and spacing guidelines.</p>
+
+                    <div class="code-snippet-component">
+                        <div class="code-snippet-component-container">
+                            <span class="copyToClipBoardWrapper">
+								<button class="copyToClipBoard" copy-id="id-set-1">Copy to clipboard</button>
+							</span>
+                            <!-- Code snippet module -->
+
+                            <xmp data-id="id-set-1" contenteditable=true></xmp>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <section class="section-list-pane">
+                    <!-- Right pane for interactive HTML view -->
+                    <div class="interactive-list-wrapper">
+                        <div class="interactive-view-container" data-id="id-set-1"> 
+                <!-- <div class="section-right-pane">
+                      Right pane for interactive HTML view  
+                    <div class="interactive-view-wrapper">
+                        <div class="interactive-view-container" data-id="id-set-1"> -->
+
+                            <section class="sg-demo-wrapper">
+                                <div class="sg-form-element">
+                                    <span class="sg-form-title">Filter Interactions</span>
+                                    <div class="sg-form-element-body">
+                                        <form>  
+                                                    <ul class="accordion"> Filters
+                                                     <li class="list-0">
+                                                        <a class="toggle" href="javascript:void(0);">Saved(2)
+
+                                                            <div class="tooltip pull-right"><p>12</p>
+                                                            <div class="tooltiptext"> <p>Tooltip iguggigigguggg text</p>
+                                                             <!-- <input/> -->
+                                                             </div>
+                                                            </div>
+                                                           <div class="pull-right"><span class="right-tool">Applied</span> </div>
+                                                        </a>                                                     
+                                                    </li>   
+                                                    <li class="list-1">
+                                                        <a class="toggle" href="javascript:void(0);">RELATIONSHIP
+                                                            <div class="tooltip pull-right"> <p>2</p>
+                                                            <div class="tooltiptext"> <p>Tooltip iguggigigguggg text</p>
+                                                             <!-- <input/> -->
+                                                             </div>
+                                                            </div>
+                                                        </a>
+                                                        <ul class="inner">
+                                                        <li><input id="documents" type="checkbox" name="documents" value="documents"> ALL Documents</li>
+                                                        <li><input type="checkbox" name="partners" value=""> My Partners</li>
+                                                        <li><input type="checkbox" name="project" value="">My Projects</li>
+                                                        </ul>
+                                                        
+                                                    </li>
+                                                    
+                                                    <li class="list-1">
+                                                        <a class="toggle" href="javascript:void(0);">PARTNER
+                                                            <div class="tooltip pull-right"> <p>2</p>
+                                                            <div class="tooltiptext"> <p>Tooltip iguggigigguggg text</p>
+                                                             <!-- <input/> -->
+                                                             </div>
+                                                            </div>
+                                                        </a>
+                                                        <ul class="inner">
+                                                        <li>Option 1</li>
+                                                        <li>Option 2</li>
+                                                        <li>Option 3</li>
+                                                        </ul>
+                                                    </li>
+                                                    
+                                                    <li class="list-1">
+                                                        <a class="toggle" href="javascript:void(0);">PROJECT
+                                                            <div class="tooltip pull-right"> <p>2</p>
+                                                            <div class="tooltiptext"> <p>Tooltip iguggigigguggg text</p>
+                                                             <!-- <input/> -->
+                                                             </div>
+                                                            </div>
+                                                        </a>
+                                                        <ul class="inner">
+                                                        <li>
+                                                            <a href="#" class="toggle">Open Inner</a>
+                                                            <div class="inner">
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
+                                                                blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
+                                                            </p>
+                                                            </div>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                            <a href="#" class="toggle">Open Inner #2</a>
+                                                            <div class="inner">
+                                                            <p>
+                                                                Children will automatically close upon closing its parent.
+                                                            </p>
+                                                            </div>
+                                                        </li>
+                                                        
+                                                        <li>Option 3</li>
+                                                        </ul>
+                                                    </li>
+                                                    </ul>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+            </section>
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>

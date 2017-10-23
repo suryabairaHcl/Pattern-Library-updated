@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Style Guide</title>
+    <link rel="stylesheet" type="text/css" href="./css/mainStyles.css">
+     <!-- <link rel="stylesheet" type="text/css" href="./css/reset.css"> -->
+       <link rel="stylesheet" href="../css/nucleo-outline.css">  
+    <link rel="stylesheet" type="text/css" href="./css/styleGuide-lib.css">
+    <link rel="stylesheet" type="text/css" href="./css/chosen.min.css">
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="./js/helperScript.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			$("#multiselect").chosen();
+		});
+	</script>
+</head>
+
+<body>
+    <nav id="styleguide-navigation">
+    	<h2>Documentation</h2>
+        <ul class="navigation-component">
+            <li><a href="./forms.html">Form Controls</a></li>
+            <li><a href="./buttons.html">Buttons</a></li>
+            <li><a href="./tabs.html" >Card Navigation</a></li>
+            <li><a href="./selection.html">Selection Controls</a></li>
+            <li><a href="./cards.html">Task Navigation</a></li>
+            <li><a href="./datalist.html">Data List</a></li>
+            <li><a href="./search.html">Search</a></li>
+            <li><a href="./search-2.html">Search Results</a></li>
+            <li><a href="./search-3.html">Search Continued</a></li>
+            <li><a href="./search-4.html" >Search Continued Part 1</a></li>
+            <li><a href="./search-5.html" >Search Continued Part 2</a></li>
+            <li><a href="./search-6.html" >Search Continued Part 3</a></li>
+            <li><a href="./search-7.html" >Search Continued Part 4</a></li>
+            <li><a href="./filters.html">filters</a></li>
+            <li><a href="./vertical-nav.html">Vertical Navigation</a></li>
+            <li><a href="./message1.html"  >Building Blocks</a></li>
+            <li><a href="./message-2.html" class='active-nav'>Mutli Select Dropdown</a></li>
+            <li><a href="./message-3.html" >Building Blocks Part 2</a></li>
+            <li><a href="./message-4.html" >Building Blocks Part 3</a></li>
+            <li><a href="./pagination-1.html" >Pagination</a></li>
+            <li><a href="./page-break.html" >Pagination</a></li>
+            <li><a href="./list-items.html" >List Item</a></li>
+        </ul>
+    </nav>
+
+    <section id="page-content-section">
+
+        <header>
+            <!-- Header or banner section for the page -->
+            <div class="header-title">
+                <span class="sub-title">COMPONENT</span>
+                <span class="main-title">
+					<strong>SELECTION CONTROLS</strong>
+				</span>
+                <span class="decor-line"></span>
+            </div>
+        </header>
+
+        <section class="page-wrapper">
+            <!-- Page content section -->
+            <section class="component-section">
+                <!-- Each sub-section of the page with right and left panes -->
+
+                <div class="section-left-pane">
+                    <!-- Left pane with text and code snippet -->
+                   
+                    <div class="code-snippet-component">
+                        <div class="code-snippet-component-container">
+                            <span class="copyToClipBoardWrapper">
+								<button class="copyToClipBoard" copy-id="id-set-1">Copy to clipboard</button>
+							</span>
+                            <!-- Code snippet module -->
+
+                            <xmp data-id="id-set-1" contenteditable=true></xmp>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-right-pane">
+                    <!-- Right pane for interactive HTML view -->
+                    <div class="interactive-view-wrapper">
+                        <div class="interactive-view-container" data-id="id-set-1">
+                            <section class="sg-demo-wrapper">
+                            	<select data-placeholder="Select Multiple Values" id="multiselect" multiple="" tabindex="3">
+                                    <option value=""></option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                    <option value="Aland Islands">Aland Islands</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="American Samoa">American Samoa</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="Antarctica">Antarctica</option>
+                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Aruba">Aruba</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaijan">Azerbaijan</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bahrain">Bahrain</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Belarus">Belarus</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Belize">Belize</option>
+                                    <option value="Benin">Benin</option>
+                                    <option value="Bermuda">Bermuda</option>
+                                    <option value="Bhutan">Bhutan</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Zambia">Zambia</option>
+                                    <option value="Zimbabwe">Zimbabwe</option>
+                                    <div class="drop-down-icon"></div>
+                                </select>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>
